@@ -1,0 +1,44 @@
+{
+	"lives": [
+		{
+			"name": "在线m3u4",
+			"type": 0,
+			"url": "https://cai512.github.io/jichan/chuanmei.m3u",
+			"logo": "",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/",
+			"ua": ""
+		},
+		{
+			"name": "在线m3u5",
+			"type": 0,
+			"url": "https://cai512.github.io/jichan/chuanmei2.m3u",
+			"logo": "",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/",
+			"ua": ""
+		},
+		{
+			"name": "在线m3u6",
+			"type": 0,
+			"url": "https://cai512.github.io/jichan/madou.m3u",
+			"logo": "",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/",
+			"ua": ""
+		},
+		{
+			"name": "在线m3u7",
+			"type": 0,
+			"url": "https://cai512.github.io/jichan/Tv.m3u",
+			"logo": "",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/",
+			"ua": ""
+		},
+		{
+			"name": "在线m3u8",
+			"type": 0,
+			"url": "https://cai512.github.io/jichan/wanou.m3u",
+			"logo": "",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/",
+			"ua": ""
+		}
+]
+}
