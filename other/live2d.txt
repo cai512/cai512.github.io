@@ -1,0 +1,26 @@
+
+<!--看板娘 -自定义大小，隐藏对话框和对话框高度-->
+<style type="text/css">   
+#waifu #live2d {       
+      height: 300px!important;        
+      width: 300px!important;   
+}
+#waifu-tips {        
+            top: -60px;
+            /*display:none !important; #隐藏对话框*/
+            }</style>
+ <!--看板娘加载指定模型-->
+ 
+ <script>
+ 		localStorage.setItem('modelId', '2');  
+ 		localStorage.setItem('modelTexturesId', '3');
+ </script>
+ 
+ <!--配置看板娘左右位置-->
+ 
+ <script src="https://api.itggg.cn/live2dnew/left/index.js"> </script>
+ 
+ 
+ 
+ <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@0.8.3/autoload.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
