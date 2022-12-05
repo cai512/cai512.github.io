@@ -20,6 +20,18 @@
  
  <script src="https://api.itggg.cn/live2dnew/left/index.js"> </script>
  
+ 一、更改看板娘大小
+更改源代码中height(高)width(宽)的值即可
+
+二、隐藏对话框
+将/display:none !important; #隐藏对话框/中的注释/**/去掉即可
+
+三、配置看板娘默认加载模型
+localStorage.setItem(‘modelId’, ‘2’); #此处的2即为模型类型
+localStorage.setItem(‘modelTexturesId’, ‘3’); #此处的3即为模型样式
+
+四、更改看板娘位置
+更改最后的看板娘左右位置中的left(左)或者right(右)
  
  
  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@0.8.3/autoload.js"></script>
