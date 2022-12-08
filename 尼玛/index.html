@@ -1,0 +1,86 @@
+<title>山不在高，有仙则灵！</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="永久地址发布页，收藏我回家不迷路！">
+<meta name="description" content="永久地址发布页，收藏我回家不迷路！">
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<div class="main">
+  <h1>地址发布页</h1>
+  <div class="content">
+    <div class="content-top">
+      <h2>请大家 Ctrl+D 收藏本页</h2>
+      <ul>
+		<li> TVBox配置接口(sp)<a class="inner copy-btn" id="sp" data-clipboard-text="https://猫接口.ml/sp.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(box)<a class="inner copy-btn" id="tvbox" data-clipboard-text="https://猫接口.ml/tvbox.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(py)<a class="inner copy-btn" id="py" data-clipboard-text="https://猫接口.ml/py.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(js)<a class="inner copy-btn" id="js" data-clipboard-text="https://猫接口.ml/js.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+        <li> TVBox配置接口(xb)<a class="inner copy-btn" id="xb" data-clipboard-text="https://猫接口.ml/xb.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(莱妮丝)<a class="inner copy-btn" id="cns" data-clipboard-text="https://猫接口.ml/xbpq.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(xyq)<a class="inner copy-btn" id="xyq" data-clipboard-text="https://猫接口.ml/xyq.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(xp)<a class="inner copy-btn" id="xp" data-clipboard-text="https://猫接口.ml/xp.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(cj)<a class="inner copy-btn" id="cj" data-clipboard-text="https://猫接口.ml/app.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> TVBox配置接口(xx)<a class="inner copy-btn" id="xx" data-clipboard-text="https://猫接口.ml/xyqh.json"><i>动动你的大拇指👈👈👈点一点就可以食用</i></a></li>
+		<li> 永久地址发布页<a class="inner copy-btn" id="fb" data-clipboard-text="https://猫接口.ml"><i>https://猫接口.ml 记住以上地址，永久有效！</i></a></li>
+         <!--<li> 永久地址发布页 <a href="#"><i>猫接口.ml</i></a> 记住以上地址，永久有效！</li>-->
+        <li> <span></span></li>
+      </ul>
+      <div class="item">
+                    <div class="bg" style="background-color:#d50cf0"></div>
+                    <div class="inner copy-btn" id="cainisi" data-clipboard-text="https://猫接口.ml/18.json">
+                        <span>复制食用，有彩蛋自行发掘😂😂👿👿</span>
+                    </div>
+                </div>
+        <!--<p>联系邮箱：<a href="mailto:524187805@qq.com">524187805@qq.com</a></p>-->
+    </div>
+  </div>
+  <p class="footer">© 2022 猫接口.ml . All Rights Reserved</p>
+  
+  <!--以下为点击复制调用js-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script>
+        $('.copy-btn').click(function () {
+            let id = $(this).attr('id')
+            copy('#' + id)
+        })
+        function copy(id) {
+            let clipboard = new ClipboardJS(id);
+            clipboard.on('success', function (e) {
+                console.log(e);
+                alert('提醒：大爷复制成功了哟喂，请前往tvbox接口粘贴')
+                clipboard.destroy();//解决多次弹窗问题
+            });
+            clipboard.on('error', function (e) {
+                console.log(e);
+                alert('请重新复制')
+                clipboard.destroy();//解决多次弹窗问题
+            });
+        }
+    </script>
+  
+</div>
+<style type="text/css">   
+#waifu #live2d {       
+      height: 300px!important;        
+      width: 300px!important;   
+}
+#waifu-tips {        
+            top: -60px;
+            /*display:none !important; #隐藏对话框*/
+            }</style>
+ <script>
+ 		localStorage.setItem('modelId', '2');  
+ 		localStorage.setItem('modelTexturesId', '3');
+ </script>
+<script src="https://api.itggg.cn/live2dnew/left/index.js"> </script>
+<script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
+<script src="https://myhkw.cn/api/player/demo" id="myhk" key="demo" skin="player" au="1" lr="r" m="1"></script>
+<!--雪花API-->
+<script src="https://api.vvhan.com/api/snow"></script>
+
+
+</body></html>
