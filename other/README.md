@@ -39,5 +39,5 @@ cat /etc/issue
 ```
 #alist一键安装脚本脚本没有写判断，只是一把梭。安装失败的话就在安装一次。这个一键脚本仅适用于repl。
 ```bash
-bash <(curl -s -L https://cai512.github.io/other/onealist.sh)
+bash <(curl -s -L https://xn--pdrwxj3t2u3a.tk/other/onealist.sh)
 ```
