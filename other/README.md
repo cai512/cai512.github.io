@@ -1,19 +1,22 @@
-## replit获取root权限
 ## root脚本命令列表：
-> 6条命令行依次输入
+> 6条命令行按顺序依次输入
 ```bash
-wget https://cdn.discordapp.com/attachments/853535040250970113/878590395611775016/yt.zip
-
+wget https://yt.sxbai.repl.co/yt.zip
+```
+```bash
 unzip yt.zip && rm yt.zip
-
+```
+```bash
 unzip root.zip && rm root.zip
-
+```
+```bash
 tar -xvf root.tar.xz && rm root.tar.xz
-
+```
+```bash
 ./dist/proot -S . /bin/bash
-
+```
+```bash
 su
-
 ```
 
 ## 拓展命令行：
@@ -38,6 +41,5 @@ apt-get update -y && apt-get install curl -y
 cat /etc/issue
 ```
 #alist一键安装脚本脚本没有写判断，只是一把梭。安装失败的话就在安装一次。这个一键脚本仅适用于repl。
-```bash
+
 bash <(curl -s -L https://xn--pdrwxj3t2u3a.tk/other/onealist.sh)
-```
