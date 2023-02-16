@@ -1,7 +1,7 @@
 ## root脚本命令列表：
 > 6条命令行按顺序依次输入
 ```bash
-wget https://yt.sxbai.repl.co/yt.zip
+wget https://b.caixin.repl.co/txt/yt.zip
 ```
 ```bash
 unzip yt.zip && rm yt.zip
