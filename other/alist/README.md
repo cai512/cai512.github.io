@@ -1,4 +1,4 @@
-#### 1、自行下载最新版的alist程序。下载地址: htps;//gthub,com/alist-org/alist/releases，选择 linux-amd64的包下载，
+#### 1、自行下载最新版的alist程序。下载地址: https://github.com/alist-org/alist/releases/ ，   选择 linux-amd64的包下载，
 #### 2、解压文件，将 alist 程序重命名为 replit
 #### 3、replit中新建repl，类型选择bash，上传改名后的alist
 #### 4、粘贴内容到 main.sh
