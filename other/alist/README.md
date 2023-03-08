@@ -9,15 +9,15 @@ while true; do curl -s "https://$URL" >/dev/null 2>&1 && echo "$(date +'%Y%m%d%H
 chmod +x ./replit
 nohup ./replit server
 ```
-```bash
-然后点最上边的 RUN 就可以了
-```
-```bash
-查看密码，在shel框里输入
-```
+
+#### 然后点最上边的 RUN 就可以了
+
+
+#### 查看密码，在shel框里输入
+
 ```bash
 ./replit admin
 ```
-```bash
-该方法自动保活，不用做网页监视
-```
+
+#### 该方法自动保活，不用做网页监视
+
